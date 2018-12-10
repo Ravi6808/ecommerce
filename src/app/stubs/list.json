@@ -1,0 +1,29 @@
+{
+    "data" :[
+        {
+            "id":1,
+            "name":"T Shirt",
+            "Price":500
+        },
+        {
+            "id":2,
+            "name":"Formal Shirt",
+            "Price":769
+        },
+        {
+            "id":3,
+            "name":"Jeans",
+            "Price":999
+        },
+        {
+            "id":4,
+            "name":"Saree",
+            "Price":2000
+        },
+        {
+            "id":5,
+            "name":"shoes",
+            "Price":899
+        }
+    ]
+}

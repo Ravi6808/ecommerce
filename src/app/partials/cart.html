@@ -1,0 +1,14 @@
+<div class="list-group" ng-repeat="item in cart">
+    <a class="list-group-item list-group-item-action flex-column align-items start active">
+     <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">{{item.name}}</h5>
+         <small><button ng-click="increementCounter(item)"type="button"class="btn btn-light">+</button>{{item.count}}
+            <button ng-click="decreementCounter(item)"type="button" class="btn btn-light">-</button></small>
+            <button ng-click="remove($index)"type="button" 
+            class="btn btn-light">remove</button>    
+     </div> 
+     <p class ="mb-1">Price :Rs {{item.Price * item.count}}</p>
+     <small></small>  
+    </a>
+  </div>
+  
